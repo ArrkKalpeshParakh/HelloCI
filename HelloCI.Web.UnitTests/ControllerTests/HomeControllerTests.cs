@@ -27,7 +27,7 @@ namespace HelloCI.Web.UnitTests.ControllerTests
 
             // Assert
             Assert.IsInstanceOf<ViewResult>(viewResult);
-            Assert.AreEqual("Welcome to ASP.NET MVC!", viewResult.ViewBag.Message);
+            Assert.AreEqual("Welcome to ASP.NET MVC:)", viewResult.ViewBag.Message);
         }
 
         [Test]
